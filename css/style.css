@@ -1,0 +1,137 @@
+.one {
+  width: 400px;
+  height: 400px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.two {
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+.three-left {
+  background: #0008ff;
+  margin-right: 150px;
+}
+
+.three-right {
+  background: #22ff00;
+}
+
+.three {
+  display: flex;
+  justify-content: center;
+}
+
+.four-left {
+  background: #ff0000;
+}
+
+.four-right {
+  background: #0008ff;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+}
+
+.five-a {
+  background: #ff0000;
+}
+
+.five-b {
+  background: #0008ff;
+}
+
+.five-c {
+  background: #ff8400
+}
+
+.f-box {
+  display: flex;
+  justify-content: center;
+}
+
+.a, .b, .c {
+  display: table;
+}
+
+.box p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.six-a {
+  background: #00ff51;
+}
+
+.six-b {
+  background: #d4ff00;
+}
+
+.six-c {
+  background: #ff00e1;
+}
+
+.seven-red {
+  background: #ff0000;
+}
+
+.seven-blue {
+  background: #0008ff;
+  display: none;
+}
+
+.seven-green {
+  background: #00ff51;
+}
+
+
+@media screen and (max-width:959px) {
+
+.one {
+  width: 200px;
+  height: 200px;
+}
+
+.two {
+  background: #007bff;
+}
+
+.three-left {
+  margin-right: 50px;
+}
+
+.four {
+  display: block;
+}
+
+.five {
+  flex-direction: row-reverse;
+}
+
+.six-a {
+  order: 1;
+}
+
+.six-b {
+  order: 2;
+}
+
+.seven-red {
+  display: none;
+}
+
+.seven-blue {
+  display: block;
+}
+
+}
