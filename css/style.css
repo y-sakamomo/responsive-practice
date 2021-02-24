@@ -37,9 +37,21 @@
   background: #0008ff;
 }
 
+.four div {
+  float: left;
+}
+
 .four {
-  display: flex;
-  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.five {
+  flex-direction: row;
 }
 
 .five-a {
@@ -51,7 +63,7 @@
 }
 
 .five-c {
-  background: #ff8400
+  background: #ff8400;
 }
 
 .f-box {
@@ -59,7 +71,7 @@
   justify-content: center;
 }
 
-.a, .b, .c {
+.dt {
   display: table;
 }
 
@@ -71,18 +83,22 @@
 
 .six-a {
   background: #00ff51;
+  order: 0;
 }
 
 .six-b {
   background: #d4ff00;
+  order: 1;
 }
 
 .six-c {
   background: #ff00e1;
+  order: 2;
 }
 
 .seven-red {
   background: #ff0000;
+  display: block;
 }
 
 .seven-blue {
@@ -110,12 +126,16 @@
   margin-right: 50px;
 }
 
-.four {
-  display: block;
+.four div {
+  float: none;
 }
 
 .five {
   flex-direction: row-reverse;
+}
+
+.six-c {
+  order: 0;
 }
 
 .six-a {
